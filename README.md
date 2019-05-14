@@ -1,2 +1,2 @@
 # crypt
-Software for an online media server.
+Software for an online media server,  (for use on Linux servers).
