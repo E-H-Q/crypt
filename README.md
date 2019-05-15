@@ -6,7 +6,7 @@ Built using Apache2
 Running on a Raspberry Pi
 
 
-## Enabling the 404 page
+### Enabling the 404 page
 Add the line:
 ```
 ErrorDocument 404 /404.html
