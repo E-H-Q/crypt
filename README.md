@@ -1,7 +1,7 @@
 # crypt
-Software for an online media server,  (for use on Linux servers).
-Built using Apache2
-Running on a Raspberry Pi
+Software for an online media server,  (for use on Linux servers).<br/>
+Built using Apache2.<br/>
+Running on a Raspberry Pi.<br/>
 
 
 ### Enabling the 404 page
