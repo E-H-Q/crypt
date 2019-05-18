@@ -5,3 +5,4 @@ cd crypt
 mv * /var/www/html
 cd - && rm -r crypt
 rm README.md
+sudo chmod +x update.sh
