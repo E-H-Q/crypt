@@ -20,7 +20,7 @@ function main() {
 	if ($olddir != "./") {
 		$olddir = "./";
 	}
-	echo "<a class='link' href ='upload.php?dir=" . $olddir . "'>" . 'RETURN' . "</a>";
+	echo "<a class='link' href ='main.php?dir=" . $olddir . "'>" . 'RETURN' . "</a>";
 	if (isset($_GET['dir']) ? $_GET['dir'] : null) {
 		$dir = (isset($_GET['dir']) ? $_GET['dir'] : null);
 	}
@@ -43,7 +43,7 @@ function main() {
 		echo "
 		<div class='container'>
 			<div class='content'>
-				<a href='upload.php?dir=" . basename($dir) . "/" . $folders . "'><img src='folder.png' style='width: 85%;'>" . $folders . "
+				<a href='main.php?dir=" . basename($dir) . "/" . $folders . "'><img src='folder.png' style='width: 85%;'>" . $folders . "
 				<i> [DIR]</i>	
 				</a>
 			</div>
