@@ -2,6 +2,7 @@
 echo '
 <head>
 	<title>THE CRYPT</title>
+	<link rel="shortcut icon" href="favicon.png"/>
 	<link rel="stylesheet" type="text/css" href="php.css">
 </head>
 ';
