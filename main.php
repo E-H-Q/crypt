@@ -44,7 +44,7 @@ function main() {
 		echo "
 		<div class='container'>
 			<div class='content'>
-				<a href='main.php?dir=" . basename($dir) . "/" . $folders . "'><img src='folder.png' style='width: 85%;'>" . $folders . "
+				<a href='main.php?dir=" . $dir . "/" . $folders . "'><img src='folder.png' style='width: 85%;'>" . $folders . "
 				<i> [DIR]</i>	
 				</a>
 			</div>
