@@ -53,6 +53,10 @@ img {
 	margin-bottom: 10px;
 }
 
+.thumb {
+	float: left;
+}
+
 .container {
 	text-align: center;
 	display: inline-block;

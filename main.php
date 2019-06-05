@@ -33,7 +33,7 @@ function main() {
 		<div class='container'>
 			<div class='content'>
 				<a href='$dir/$arr[$i]' target='blank' alt='$name' title='$name'>
-				<img src='$dir/$arr[$i].jpg'>
+				<img class='thumb' src='$dir/$arr[$i].jpg'>
 				$name
 				</a>
 			</div>
