@@ -15,14 +15,12 @@ function main() {
 	}
 	$arr = array();
 	$i = 0;
-	$olddir = dirname(getcwd());
+	$olddir = dirname($dir);
 	chdir($dir);
 	echo "<div class='dir'>Current dir: " . getcwd() . "</div><br>";
-	if ($olddir != "./") {
-		$olddir = "./";
-	}
-	echo "<a class='link' href ='main.php?dir=" . $olddir . "'>" . 'RETURN' . "</a>";
+	echo "<a class='link' href ='main.php?dir=" . $olddir . "'>" . 'BACK' . "</a>";
 	if (isset($_GET['dir']) ? $_GET['dir'] : null) {
+		$olddir = dirname(getcwd());
 		$dir = (isset($_GET['dir']) ? $_GET['dir'] : null);
 	}
 	echo "<hr>";
