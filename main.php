@@ -8,7 +8,6 @@ echo '
 ';
 
 function main() {
-	$dir = "";
 	$dir = (isset($_GET['dir']) ? $_GET['dir'] : null);
 	if ($dir == "") {
 		$dir = "./";
@@ -20,7 +19,6 @@ function main() {
 	echo "<div class='dir'>Current dir: " . getcwd() . "</div><br>";
 	echo "<a class='link' href ='main.php?dir=" . $olddir . "'>" . 'BACK' . "</a>";
 	if (isset($_GET['dir']) ? $_GET['dir'] : null) {
-		$olddir = dirname(getcwd());
 		$dir = (isset($_GET['dir']) ? $_GET['dir'] : null);
 	}
 	echo "<hr>";
