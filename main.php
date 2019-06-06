@@ -44,7 +44,7 @@ function main() {
 		echo "
 		<div class='container'>
 			<div class='content'>
-				<a href='main.php?dir=" . $dir . "/" . $folders . "'><img src='folder.png' style='width: 85%;'>" . $folders . "</a>
+				<a href='main.php?dir=" . $dir . "/" . $folders . "'><img src='folder.png' style='width: 10vw;'><br>" . $folders . "</a>
 			</div>
 		</div>";
 		if (isset($_GET['dir']) ? $_GET['dir'] : null) {
