@@ -43,9 +43,6 @@ function main() {
 				<a href='main.php?dir=" . $dir . "/" . $folders . "'><img src='folder.png' style='width: 10vw;'><br>" . $folders . "</a>
 			</div>
 		</div>";
-		if (isset($_GET['dir']) ? $_GET['dir'] : null) {
-			$dir = (isset($_GET['dir']) ? $_GET['dir'] : null);
-		}
 	}
 }
 
