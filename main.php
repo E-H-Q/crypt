@@ -8,9 +8,15 @@ echo '
 ';
 
 function main() {
+	$home = ""; // DEFINE STARTING DIRECTORY HERE
+	if ($home == "") {
+		$home = "./";
+	}
+
 	$dir = (isset($_GET['dir']) ? $_GET['dir'] : null);
 	if ($dir == "") {
-		$dir = "./";
+		header("Location: main.php?dir=" . $home);
+		exit;
 	}
 	$arr = array();
 	$i = 0;
