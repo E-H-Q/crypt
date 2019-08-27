@@ -15,6 +15,14 @@ h1 {
 	font-size: 350%;
 }
 
+@font-face {
+font-family: 'MeyrinRegular';
+src:
+	local('Meyrin'),
+	local('MeyrinRegular'),
+	url('MeyrinRegular.ttf');
+}
+
 a {
 	color: #FF0000;
 	text-decoration: none;
